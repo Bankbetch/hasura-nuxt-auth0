@@ -1,0 +1,21 @@
+/* ./assets/css/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[disabled] {
+  background-color: #edf2f7;
+}
+.vue-notification {
+  padding: 10px;
+  margin: 0 5px 5px;
+  background: transparent !important;
+  border-left: unset !important;
+  padding: 0 !important;
+  margin: 0 1rem 1rem !important;
+}
+
+.required:after {
+  content: ' *';
+  color: #e53e3e;
+}
